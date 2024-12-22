@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="assets/js/app.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <div class="mb-3">
+        <label for="countryInput" class="form-label">Search a Country</label>
+        <input type="text" class="form-control" id="countryInput" />
+      </div>
+
+      <button id="countryBtn" class="btn btn-primary">Search</button>
+      <button id="allBtn" class="btn btn-primary">Search All Countries</button>
+    </form>
+    <hr />
+    <div id="statsDiv"></div>
+    <table class="table table-striped" id="countriesNamesTable"></table>
+    <table class="table table-striped" id="countriesRegionTable"></table>
+    <table class="table table-striped" id="countryLanguageTable"></table>
+  </body>
+</html>
